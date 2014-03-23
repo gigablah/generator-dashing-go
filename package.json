@@ -1,0 +1,45 @@
+{
+  "name": "generator-dashing-go",
+  "version": "0.0.1",
+  "description": "A Yeoman generator for dashing-go",
+  "keywords": [
+    "yeoman-generator",
+    "go",
+    "golang",
+    "Martini",
+    "dashing",
+    "dashboard"
+  ],
+  "homepage": "https://github.com/gigablah/generator-dashing-go",
+  "bugs": "https://github.com/gigablah/generator-dashing-go/issues",
+  "author": {
+    "name": "Chris Heng",
+    "email": "bigblah@gmail.com",
+    "url": "https://github.com/gigablah"
+  },
+  "main": "app/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gigablah/generator-dashing-go.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=1.2.10"
+  },
+  "license": "MIT"
+}

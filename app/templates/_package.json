@@ -1,0 +1,32 @@
+{
+  "name": "<%= _.slugify(appName) %>",
+  "version": "0.0.0",
+  "description": "A dashing-go dashboard",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gigablah/generator-dashing-go.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "load-grunt-tasks": "~0.3.0",
+    "time-grunt": "~0.2.0",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-uglify": "~0.4.0",
+    "grunt-contrib-cssmin": "~0.9.0",
+    "grunt-contrib-watch": "~0.6.0",
+    "grunt-contrib-connect": "~0.7.0",
+    "grunt-connect-proxy": "~0.1.10",
+    "grunt-sass": "~0.7.0",
+    "grunt-string-replace": "~0.2.7",
+    "grunt-snockets": "umurgdk/grunt-snockets"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "postinstall" : "grunt init; grunt build"
+  }
+}
