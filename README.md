@@ -5,11 +5,15 @@ This is a [Yeoman][1] generator for creating dashboards with the [dashing-go][2]
 
 The dashboard runs on the [Martini][4] microframework, while the frontend dependencies are managed by [Grunt][5] and [Bower][6].
 
+![screenshot](https://raw.githubusercontent.com/gigablah/generator-dashing-go/master/screenshot.png)
+
+For a live demo, check out the [sample dashboard][7].
+
 ## Requirements
 
-* [Git][7]
-* [Node.js ~0.10][8]
-* [Go ~1.2][9]
+* [Git][8]
+* [Node.js ~0.10][9]
+* [Go ~1.2][10]
 
 ## Installation
 
@@ -95,6 +99,7 @@ Released under the MIT license.
 [4]: http://martini.codegangsta.io
 [5]: http://gruntjs.com
 [6]: http://bower.io
-[7]: http://git-scm.com
-[8]: http://nodejs.org
-[9]: http://golang.org
+[7]: http://dashing.kuanyen.net
+[8]: http://git-scm.com
+[9]: http://nodejs.org
+[10]: http://golang.org
