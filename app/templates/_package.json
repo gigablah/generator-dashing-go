@@ -27,6 +27,6 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "postinstall" : "grunt init; grunt build"
+    "postinstall" : "grunt init build"
   }
 }
