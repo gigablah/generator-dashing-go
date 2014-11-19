@@ -17,9 +17,9 @@ For a live demo, check out the [sample dashboard][7].
 
 ## Installation
 
-Install Yeoman:
+Install Yeoman, and dependencies:
 
-    npm install -g yo
+    npm install -g yo grunt grunt-cli bower
 
 Install the dashing-go generator:
 
