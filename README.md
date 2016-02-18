@@ -3,7 +3,7 @@ generator-dashing-go
 
 This is a [Yeoman][1] generator for creating dashboards with the [dashing-go][2] library, a Go port of [Shopify/dashing][3].
 
-The dashboard runs on the [Martini][4] microframework, while the frontend dependencies are managed by [Grunt][5] and [Bower][6].
+The frontend dependencies are managed by [Grunt][5] and [Bower][6].
 
 ![screenshot](https://raw.githubusercontent.com/gigablah/generator-dashing-go/master/screenshot.png)
 
@@ -19,7 +19,7 @@ For a live demo, check out the [sample dashboard][7].
 
 Install Yeoman, and dependencies:
 
-    npm install -g yo grunt grunt-cli bower
+    npm install -g yo grunt-cli bower
 
 Install the dashing-go generator:
 
@@ -43,7 +43,7 @@ Start the server:
 
     go run server.go
 
-The sample dashboard is now available at [http://localhost:3000](http://localhost:3000).
+The sample dashboard is now available at [http://localhost:8080](http://localhost:8080).
 
 ## Asset pipeline
 
@@ -96,10 +96,9 @@ Released under the MIT license.
 [1]: http://yeoman.io
 [2]: https://github.com/gigablah/dashing-go
 [3]: http://shopify.github.io/dashing
-[4]: http://martini.codegangsta.io
-[5]: http://gruntjs.com
-[6]: http://bower.io
-[7]: http://dashing.kuanyen.net
-[8]: http://git-scm.com
-[9]: http://nodejs.org
-[10]: http://golang.org
+[4]: http://gruntjs.com
+[5]: http://bower.io
+[6]: http://dashing.kuanyen.net
+[7]: http://git-scm.com
+[8]: http://nodejs.org
+[9]: http://golang.org

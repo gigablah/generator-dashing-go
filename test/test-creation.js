@@ -11,7 +11,7 @@ describe('dashing-go generator', function () {
       }
 
       this.app = helpers.createGenerator('dashing-go:app', [
-        '../../app'
+        '../../generators/app'
       ]);
       done();
     }.bind(this));
