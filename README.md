@@ -3,17 +3,17 @@ generator-dashing-go
 
 This is a [Yeoman][1] generator for creating dashboards with the [dashing-go][2] library, a Go port of [Shopify/dashing][3].
 
-The frontend dependencies are managed by [Grunt][5] and [Bower][6].
+The frontend dependencies are managed by [Grunt][4] and [Bower][5].
 
 ![screenshot](https://raw.githubusercontent.com/gigablah/generator-dashing-go/master/screenshot.png)
 
-For a live demo, check out the [sample dashboard][7].
+For a live demo, check out the [sample dashboard][6].
 
 ## Requirements
 
-* [Git][8]
-* [Node.js ~0.10][9]
-* [Go ~1.2][10]
+* [Git][7]
+* [Node.js ~0.10][8]
+* [Go ~1.2][9]
 
 ## Installation
 
